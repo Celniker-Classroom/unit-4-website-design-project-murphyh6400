@@ -1,0 +1,61 @@
+/* body style */
+body {
+  background-color: rgb(190, 115, 74);
+}
+
+/* title style */
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* subtitle style */
+h2 {
+font-family: sans-serif;
+text-align: center;
+}
+
+/* image style */
+img {
+  display: block;
+  margin: auto;
+  filter: drop-shadow(8px, 8px, 10px, gray);
+  width: 250px;
+  border-color: rgb(0, 0, 0);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+/* paragraph style */
+p {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 14px;
+}
+ul {
+    text-align: center;
+    align-self: center;
+    list-style-position: inside;
+}
+.navbar ul {
+    list-style-type: none;
+    background-color:coral;
+    padding:0px;
+    margin:0px;
+    overflow: hidden;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding:15px;
+    display: block;
+    text-align: center;
+    font-family: cursive;
+}
+.navbar a:hover{
+    background-color: rgb(198, 97, 61);
+}
+.navbar li{
+    float: left;
+}
