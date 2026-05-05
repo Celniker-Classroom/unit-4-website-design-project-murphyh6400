@@ -2,6 +2,9 @@
 body {
   background: linear-gradient(blue, aqua)
 }
+.orangemode {
+    background: linear-gradient(red, orange);
+}
 
 /* title style */
 h1 {
@@ -124,3 +127,24 @@ br {
     padding: 3px;
     box-shadow: 5px 5px 5px aqua;
 }
+.colorbutton {
+    background: linear-gradient(red, orange);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+.colorbutton:hover {
+    background: linear-gradient(rgb(159, 1, 1), rgb(141, 92, 0));
+    cursor: pointer;
+}
+.colorbutton2 {
+    background: linear-gradient(blue, aqua);
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+}
+.colorbutton2:hover {
+    background: linear-gradient(rgb(0, 0, 147), rgb(0, 150, 150));
+    cursor: pointer;
+}
+#more {display: none;}
