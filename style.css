@@ -1,9 +1,20 @@
 /* body style */
 body {
-  background: linear-gradient(blue, aqua)
+  background: linear-gradient(blue, aqua);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  min-height: 100%;
+  margin:0;
+
 }
 .orangemode {
     background: linear-gradient(red, orange);
+      background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  min-height: 100%;
+  margin:0;
 }
 
 /* title style */
@@ -148,3 +159,26 @@ br {
     cursor: pointer;
 }
 #more {display: none;}
+
+.readbutton {
+    border-radius:5px;
+    padding:5px;
+    border-color:transparent;
+    background-color:gray;
+    color:white;
+    font-family:sans-serif;
+}
+.readbutton:hover {
+    cursor:pointer;
+}
+.nextbutton {
+    background:gray;
+    color:white;
+    font-family:cursive;
+    border-color:transparent;
+    border-radius:5px;
+    padding:5px;
+}
+.nextbutton:hover {
+    cursor:pointer;
+}

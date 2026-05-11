@@ -17,3 +17,9 @@ function colorFunction() {
   var element = document.body;
   element.classList.toggle("orangemode");
 }
+function nextBrands() {
+  window.location.href = "parks.html"
+}
+function nextParks() {
+  window.location.href = "sponsors.html"
+}
